@@ -670,7 +670,7 @@ const renderMap = () => {
         label = playerObj.name.substring(0, 6) // make it shorter
       }
       // calculate the aim line, for 512 units (500m)
-      const radianAngle = loc[3] / 180 * Math.PI
+      const radianAngle = loc[3] / 180/10 * Math.PI
       feature.set('_lineGeo', new ol.geom.LineString(
         [[loc[0], loc[1]],
          [loc[0] + Math.cos(radianAngle) * 512, loc[1] - Math.sin(radianAngle) * 512]]
