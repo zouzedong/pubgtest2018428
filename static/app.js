@@ -26,7 +26,7 @@ vapp = new Vue({
     mapType: 'erangel',
     followMe: true,
     isDesert: false,
-    showBox: false,
+    showBox: true,
     showAirDrop: true,
     showCar: true,
 
@@ -62,7 +62,7 @@ vapp = new Vue({
     showARExtended: false,
     showARStock: false,
     showSRFlashHider: false,
-    showSRSuppressor: true,
+    showSRSuppressor: false,
     showSRExtended: false,
     showSRStock: false,
     showM16A4: true,
