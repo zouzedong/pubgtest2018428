@@ -19,7 +19,7 @@ Example: node index.js playback '/SOME/COOL/DIR/pubg-game1.pcap' | pino
 }
 
 function startWebServer () {
-  const apiServerPort = 20086
+  const apiServerPort = 10010
   backend.listen(apiServerPort, () => {
     console.log('Scientific Chicken Dinner listening on http://localhost:' + apiServerPort)
   })
