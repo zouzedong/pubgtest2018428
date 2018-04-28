@@ -29,7 +29,7 @@ make
 make install
 
 git https://github.com/zouzedong/pubgtest2018428.git
-cd pubg1/
+cd pubgtest2018428/
 npm i
 npm i -g pino
 npm install -g forever
